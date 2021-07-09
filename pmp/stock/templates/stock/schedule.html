@@ -1,0 +1,55 @@
+{% extends  "stock/base.html"%}
+
+{% block content %}
+
+<!--table class="table" style="background-color: black;">
+  
+    <thead class="bg-steel">
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col"></th>
+        <th scope="col" colspan=2>Presenters</th>
+      </tr>
+    </thead>
+</table-->
+
+<table class="table table-striped table-dark">
+  
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col"></th>
+        <th scope="col" colspan=2>Presenters</th>
+      </tr>
+    </thead>
+    <tbody>
+        {%for row in schedule%}
+        <tr>
+            <th scope="row">{{row.date}}</th>
+            {%if row.pop1%}
+            <td><a class="schedule-link" href={{row.link1}} >{{row.pres1}}</a></td>
+            {%else%}
+            <td>{{row.pres1}}</td>
+            {%endif%}
+            {%if row.pop2%}
+            <td><a class="schedule-link" href={{row.link2}}>{{row.pres2}}</a></td>
+            {%else%}
+            <td>{{row.pres2}}</td>
+            {%endif%}
+            {%if row.pop2%}
+            <td><a class="schedule-link" href={{row.link3}}>{{row.pres3}}</a></td>
+            {%else%}
+            <td>{{row.pres3}}</td>
+            {%endif%}
+        </tr>
+        {%endfor%}
+
+    </tbody>
+  </table>
+
+  <table class="table table-hover table-dark">
+    <thead>
+  
+</thead>
+</table>
+{%endblock content%}

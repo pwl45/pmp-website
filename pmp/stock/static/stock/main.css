@@ -1,0 +1,203 @@
+/*
+DEVELOPMENT CSS
+COPY TO PRODUCTION CSS AFTER ANY CHANGES
+*/
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.table-top {
+  background-color: blue;
+  color: white;
+  border-color: white;
+}
+
+.bg-purp {
+  background-image: url("/static/stock/Deep Purple.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-color: thistle;
+  stock static stock
+  */
+}
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.bg-wht {
+  background-color: gainsboro;
+}
+
+.bg-willy {
+  background-color: #500082;
+}
+
+.bg-dp {
+  background-color: #280050;
+}
+.nav-brand {
+  color: #500082;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  /*font-size: large;*/
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #500082;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ca7edd;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.login-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.content-section {
+  background: #212529;
+  padding: 7px 20px;
+  /*border: 1px solid #dddddd;*/
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+a.schedule-link:link {
+  color: whitesmoke;
+  border-bottom: 1px solid currentColor;
+  /*text-decoration: underline;*/
+}
+a.schedule-link:hover {
+  color: whitesmoke;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+a.schedule-link:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a.schedule-link:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a.table-link:link {
+  color: whitesmoke;
+  /*border-bottom: 1px solid currentColor;
+  text-decoration: underline;*/
+}
+a.table-link:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a.table-link:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.reallywide {
+  width: 100%;
+}
+
+.total {
+  color: white;
+}
+
+.left-block {
+  position: relative;
+  margin-top: 6%;
+  margin-left: 4%;
+}
+
+.hometext {
+  color: #fff;
+  /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+}
+
+.mover-list {
+  color: rgb(189, 16, 233);
+  background-color: lightgray;
+}
