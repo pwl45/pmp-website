@@ -9,9 +9,9 @@ Full stack website for Purple Mountain Partners, a student-run investment club a
 ## Features: 
 * Sortable club portfolio table with auto-updating prices
 * Presentation schedule with clickable links to each finished presentation
-* Secure login
+* Secure login; sensitive information restricted to members only
 
-## Screenshots
+## Screenshots:
 
 Screenshot of club portfolio table
 
