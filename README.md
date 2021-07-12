@@ -13,8 +13,10 @@ Full stack website for Purple Mountain Partners, a student-run investment club a
 
 ## Screenshots
 
+* Club presentation schedule with member names obscured
+![](https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/schedule-obfuscated.png)
+
 ![](https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/portfolio-nosort-obfuscated.png)
 
 ![](https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/portfolio-pct-gain-obfuscated.png)
 
-![](https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/schedule-obfuscated.png)
