@@ -14,5 +14,7 @@ Full stack website for Purple Mountain Partners, a student-run investment club a
 ## Screenshots
 
 ![https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/portfolio-nosort-obfuscated.png]
+
 ![https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/portfolio-pct-gain-obfuscated.png]
+
 ![https://raw.githubusercontent.com/pwl45/pmp-website/main/.demo-images/portfolio-nosort-obfuscated.png]
